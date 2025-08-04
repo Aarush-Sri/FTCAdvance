@@ -1,0 +1,14 @@
+.leaderboard {
+    width: 35%;
+    /* background-color: aqua; */
+    height: 78vh;
+    padding: 2%;
+    /* margin-bottom: 2%;   */
+    color: rgb(76,107,31);
+    overflow-y: scroll;
+}
+
+.leaderboard::-webkit-scrollbar {
+    display: none;
+}
+

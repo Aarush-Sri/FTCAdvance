@@ -1,0 +1,16 @@
+.events {
+    /* background-color: orange; */
+    width: 45%;
+}
+
+.events select {
+    text-align: center; 
+    width: 100%;
+    border-style: none;
+    font-size: .9rem;
+
+}
+
+.events select:focus {
+    border-style: none;
+}
