@@ -11,6 +11,7 @@ function App() {
   const [eventCode, setEventCode] = useState("FTCCMP1FRAN")
 
 
+
   useEffect(() => {
     const fakeCursors = document.getElementById("fake-cursor")
 
@@ -22,8 +23,12 @@ function App() {
         cursor.style.transform =   `translate(${x}px, ${y}px)`
       }
 
+      moveCursor(fakeCursors)
+
       setInterval(() => moveCursor(fakeCursors), 3000)
-  })
+
+      
+  }, [])
 
   return (
     <div className="main">
@@ -40,7 +45,7 @@ function App() {
           </div>
         </EVENT_CODE_CONTEXT.Provider> */}
 
-        <img src="../public/secret_bg.png" alt="" />
+        <img src="/secret_bg.png" alt="" />
 
           <div id="fake-cursor">
 
